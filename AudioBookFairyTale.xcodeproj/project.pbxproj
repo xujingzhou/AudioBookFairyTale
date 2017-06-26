@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8507DA671737DCB700C445CD /* AbstractView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8507DA661737DCB700C445CD /* AbstractView.m */; };
+		852CBC63173F76C6007ADEF6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 852CBC62173F76C6007ADEF6 /* icon.png */; };
+		8543BAA817351487009C2514 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8543BAA717351487009C2514 /* bg1.png */; };
+		8543BAAB17351551009C2514 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8543BAAA17351550009C2514 /* NSString+URLEncoding.m */; };
+		85CC7E7D1734A99D00473C5D /* ReadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC7E7C1734A99D00473C5D /* ReadView.m */; };
+		85CC7E851734B36500473C5D /* bg6.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CC7E841734B36500473C5D /* bg6.png */; };
+		85D2DF72172A8D420041AF34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2DF71172A8D420041AF34 /* UIKit.framework */; };
+		85D2DF74172A8D420041AF34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2DF73172A8D420041AF34 /* Foundation.framework */; };
+		85D2DF7C172A8D420041AF34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85D2DF7A172A8D420041AF34 /* InfoPlist.strings */; };
+		85D2DF7E172A8D420041AF34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2DF7D172A8D420041AF34 /* main.m */; };
+		85D2DF82172A8D420041AF34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2DF81172A8D420041AF34 /* AppDelegate.m */; };
+		85D2DF96172A90D50041AF34 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2DF95172A90D50041AF34 /* RootViewController.m */; };
+		85D2DF9A172A92EE0041AF34 /* navbar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D2DF99172A92EE0041AF34 /* navbar2.png */; };
+		85D2DF9E172A95A60041AF34 /* sharebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D2DF9D172A95A60041AF34 /* sharebg.png */; };
+		85D2DFA0172A95FF0041AF34 /* BookShelfCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D2DF9F172A95FF0041AF34 /* BookShelfCell.png */; };
+		85D2E041172AA4940041AF34 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2E040172AA4940041AF34 /* libz.dylib */; };
+		85D2E043172AA49F0041AF34 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2E042172AA49F0041AF34 /* AVFoundation.framework */; };
+		85D2E045172AA4AA0041AF34 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2E044172AA4AA0041AF34 /* CFNetwork.framework */; };
+		85D2E047172AA4B50041AF34 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2E046172AA4B50041AF34 /* SystemConfiguration.framework */; };
+		85D2E049172AA4BE0041AF34 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2E048172AA4BE0041AF34 /* MobileCoreServices.framework */; };
+		85D2E053172AA5640041AF34 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2E04C172AA5640041AF34 /* BookCell.m */; };
+		85D2E054172AA5640041AF34 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2E04E172AA5640041AF34 /* BookModel.m */; };
+		85D2E055172AA5640041AF34 /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2E050172AA5640041AF34 /* RatingView.m */; };
+		85D2E056172AA5640041AF34 /* BookImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2E052172AA5640041AF34 /* BookImage.m */; };
+		85E4DDBA173A16C40007D89A /* webIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E4DDB9173A16C40007D89A /* webIntroView.m */; };
+		B26371671A1ACB5A009BB40C /* book1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B26371371A1ACB5A009BB40C /* book1.jpg */; };
+		B26371681A1ACB5A009BB40C /* 世界上最优美的童话_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371381A1ACB5A009BB40C /* 世界上最优美的童话_1.mp3 */; };
+		B26371691A1ACB5A009BB40C /* 世界上最优美的童话_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371391A1ACB5A009BB40C /* 世界上最优美的童话_10.mp3 */; };
+		B263716A1A1ACB5A009BB40C /* 世界上最优美的童话_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263713A1A1ACB5A009BB40C /* 世界上最优美的童话_11.mp3 */; };
+		B263716B1A1ACB5A009BB40C /* 世界上最优美的童话_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263713B1A1ACB5A009BB40C /* 世界上最优美的童话_2.mp3 */; };
+		B263716C1A1ACB5A009BB40C /* 世界上最优美的童话_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263713C1A1ACB5A009BB40C /* 世界上最优美的童话_3.mp3 */; };
+		B263716D1A1ACB5A009BB40C /* 世界上最优美的童话_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263713D1A1ACB5A009BB40C /* 世界上最优美的童话_4.mp3 */; };
+		B263716E1A1ACB5A009BB40C /* 世界上最优美的童话_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263713E1A1ACB5A009BB40C /* 世界上最优美的童话_5.mp3 */; };
+		B263716F1A1ACB5A009BB40C /* 世界上最优美的童话_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263713F1A1ACB5A009BB40C /* 世界上最优美的童话_6.mp3 */; };
+		B26371701A1ACB5A009BB40C /* 世界上最优美的童话_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371401A1ACB5A009BB40C /* 世界上最优美的童话_7.mp3 */; };
+		B26371711A1ACB5A009BB40C /* 世界上最优美的童话_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371411A1ACB5A009BB40C /* 世界上最优美的童话_8.mp3 */; };
+		B26371721A1ACB5A009BB40C /* 世界上最优美的童话_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371421A1ACB5A009BB40C /* 世界上最优美的童话_9.mp3 */; };
+		B26371731A1ACB5A009BB40C /* book2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B26371441A1ACB5A009BB40C /* book2.jpg */; };
+		B26371741A1ACB5A009BB40C /* 少儿幽默故事小屋_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371451A1ACB5A009BB40C /* 少儿幽默故事小屋_1.mp3 */; };
+		B26371751A1ACB5A009BB40C /* 少儿幽默故事小屋_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371461A1ACB5A009BB40C /* 少儿幽默故事小屋_10.mp3 */; };
+		B26371761A1ACB5A009BB40C /* 少儿幽默故事小屋_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371471A1ACB5A009BB40C /* 少儿幽默故事小屋_11.mp3 */; };
+		B26371771A1ACB5A009BB40C /* 少儿幽默故事小屋_12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371481A1ACB5A009BB40C /* 少儿幽默故事小屋_12.mp3 */; };
+		B26371781A1ACB5A009BB40C /* 少儿幽默故事小屋_13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371491A1ACB5A009BB40C /* 少儿幽默故事小屋_13.mp3 */; };
+		B26371791A1ACB5A009BB40C /* 少儿幽默故事小屋_14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263714A1A1ACB5A009BB40C /* 少儿幽默故事小屋_14.mp3 */; };
+		B263717A1A1ACB5A009BB40C /* 少儿幽默故事小屋_15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263714B1A1ACB5A009BB40C /* 少儿幽默故事小屋_15.mp3 */; };
+		B263717B1A1ACB5A009BB40C /* 少儿幽默故事小屋_16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263714C1A1ACB5A009BB40C /* 少儿幽默故事小屋_16.mp3 */; };
+		B263717C1A1ACB5A009BB40C /* 少儿幽默故事小屋_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263714D1A1ACB5A009BB40C /* 少儿幽默故事小屋_2.mp3 */; };
+		B263717D1A1ACB5A009BB40C /* 少儿幽默故事小屋_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263714E1A1ACB5A009BB40C /* 少儿幽默故事小屋_3.mp3 */; };
+		B263717E1A1ACB5A009BB40C /* 少儿幽默故事小屋_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263714F1A1ACB5A009BB40C /* 少儿幽默故事小屋_4.mp3 */; };
+		B263717F1A1ACB5A009BB40C /* 少儿幽默故事小屋_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371501A1ACB5A009BB40C /* 少儿幽默故事小屋_5.mp3 */; };
+		B26371801A1ACB5A009BB40C /* 少儿幽默故事小屋_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371511A1ACB5A009BB40C /* 少儿幽默故事小屋_6.mp3 */; };
+		B26371811A1ACB5A009BB40C /* 少儿幽默故事小屋_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371521A1ACB5A009BB40C /* 少儿幽默故事小屋_7.mp3 */; };
+		B26371821A1ACB5A009BB40C /* 少儿幽默故事小屋_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371531A1ACB5A009BB40C /* 少儿幽默故事小屋_8.mp3 */; };
+		B26371831A1ACB5A009BB40C /* 少儿幽默故事小屋_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371541A1ACB5A009BB40C /* 少儿幽默故事小屋_9.mp3 */; };
+		B26371841A1ACB5A009BB40C /* book3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B26371561A1ACB5A009BB40C /* book3.jpg */; };
+		B26371851A1ACB5A009BB40C /* 成语故事_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371571A1ACB5A009BB40C /* 成语故事_1.mp3 */; };
+		B26371861A1ACB5A009BB40C /* 成语故事_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371581A1ACB5A009BB40C /* 成语故事_10.mp3 */; };
+		B26371871A1ACB5A009BB40C /* 成语故事_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371591A1ACB5A009BB40C /* 成语故事_11.mp3 */; };
+		B26371881A1ACB5A009BB40C /* 成语故事_12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263715A1A1ACB5A009BB40C /* 成语故事_12.mp3 */; };
+		B26371891A1ACB5A009BB40C /* 成语故事_13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263715B1A1ACB5A009BB40C /* 成语故事_13.mp3 */; };
+		B263718A1A1ACB5A009BB40C /* 成语故事_14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263715C1A1ACB5A009BB40C /* 成语故事_14.mp3 */; };
+		B263718B1A1ACB5A009BB40C /* 成语故事_15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263715D1A1ACB5A009BB40C /* 成语故事_15.mp3 */; };
+		B263718C1A1ACB5A009BB40C /* 成语故事_16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263715E1A1ACB5A009BB40C /* 成语故事_16.mp3 */; };
+		B263718D1A1ACB5A009BB40C /* 成语故事_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B263715F1A1ACB5A009BB40C /* 成语故事_2.mp3 */; };
+		B263718E1A1ACB5A009BB40C /* 成语故事_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371601A1ACB5A009BB40C /* 成语故事_3.mp3 */; };
+		B263718F1A1ACB5A009BB40C /* 成语故事_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371611A1ACB5A009BB40C /* 成语故事_4.mp3 */; };
+		B26371901A1ACB5A009BB40C /* 成语故事_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371621A1ACB5A009BB40C /* 成语故事_5.mp3 */; };
+		B26371911A1ACB5A009BB40C /* 成语故事_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371631A1ACB5A009BB40C /* 成语故事_6.mp3 */; };
+		B26371921A1ACB5A009BB40C /* 成语故事_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371641A1ACB5A009BB40C /* 成语故事_7.mp3 */; };
+		B26371931A1ACB5A009BB40C /* 成语故事_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371651A1ACB5A009BB40C /* 成语故事_8.mp3 */; };
+		B26371941A1ACB5A009BB40C /* 成语故事_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B26371661A1ACB5A009BB40C /* 成语故事_9.mp3 */; };
+		B26373161A26AE2C009BB40C /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B26373151A26AE2C009BB40C /* libGoogleAdMobAds.a */; };
+		B2B4D1861A0F056100A4EDF6 /* EECircularMusicPlayerDACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B4D1831A0F056100A4EDF6 /* EECircularMusicPlayerDACircularProgressView.m */; };
+		B2B4D1871A0F056100A4EDF6 /* EECircularMusicPlayerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B4D1851A0F056100A4EDF6 /* EECircularMusicPlayerControl.m */; };
+		B2B4D18F1A0F083900A4EDF6 /* AudioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B4D18C1A0F083900A4EDF6 /* AudioCell.m */; };
+		B2B4D1901A0F083900A4EDF6 /* AudioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B4D18E1A0F083900A4EDF6 /* AudioTableViewController.m */; };
+		B2B4D1951A0F09F200A4EDF6 /* ProfileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B4D1941A0F09F200A4EDF6 /* ProfileInfo.m */; };
+		B2DD64851A07942A00950367 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64841A07942A00950367 /* QuartzCore.framework */; };
+		B2DD64B31A0795E400950367 /* LARSAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DD64881A0795E400950367 /* LARSAdController.m */; };
+		B2DD64B41A0795E400950367 /* TOLAdAdapterGoogleAds.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DD648B1A0795E400950367 /* TOLAdAdapterGoogleAds.m */; };
+		B2DD64B51A0795E400950367 /* TOLAdAdapteriAds.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DD648D1A0795E400950367 /* TOLAdAdapteriAds.m */; };
+		B2DD64B61A0795E500950367 /* TOLAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DD648F1A0795E400950367 /* TOLAdViewController.m */; };
+		B2DD64BA1A0799C800950367 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64B91A0799C800950367 /* iAd.framework */; };
+		B2DD64BC1A0799CF00950367 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64BB1A0799CF00950367 /* AdSupport.framework */; };
+		B2DD64BE1A0799EB00950367 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64BD1A0799EB00950367 /* StoreKit.framework */; };
+		B2DD64C01A0799F700950367 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64BF1A0799F700950367 /* AudioToolbox.framework */; };
+		B2DD64C21A079A0900950367 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64C11A079A0900950367 /* MessageUI.framework */; };
+		B2DD64C41A079A1000950367 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64C31A079A1000950367 /* CoreTelephony.framework */; };
+		B2DD64C61A079A2100950367 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64C51A079A2100950367 /* CoreMedia.framework */; };
+		B2DD64C81A079A6D00950367 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64C71A079A6D00950367 /* CoreText.framework */; };
+		B2DD64CD1A079CD700950367 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64CB1A079CD700950367 /* EventKit.framework */; };
+		B2DD64CE1A079CD700950367 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2DD64CC1A079CD700950367 /* EventKitUI.framework */; };
+		B2DD64CF1A079CE900950367 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2DF75172A8D420041AF34 /* CoreGraphics.framework */; };
+		B2DD64D11A07A07B00950367 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DD64D01A07A07B00950367 /* Images.xcassets */; };
+		D797FE1B1F0081CA00D1CB97 /* Default-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D797FE1A1F0081CA00D1CB97 /* Default-568@2x.png */; };
+		D797FE1D1F0081D900D1CB97 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D797FE1C1F0081D900D1CB97 /* Default.png */; };
+		D797FE1F1F0081E700D1CB97 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D797FE1E1F0081E600D1CB97 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8507DA651737DCB700C445CD /* AbstractView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractView.h; sourceTree = "<group>"; };
+		8507DA661737DCB700C445CD /* AbstractView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractView.m; sourceTree = "<group>"; };
+		852CBC5E173F734A007ADEF6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		852CBC62173F76C6007ADEF6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8543BAA717351487009C2514 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		8543BAA917351550009C2514 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		8543BAAA17351550009C2514 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		85CC7E7B1734A99D00473C5D /* ReadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadView.h; sourceTree = "<group>"; };
+		85CC7E7C1734A99D00473C5D /* ReadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadView.m; sourceTree = "<group>"; };
+		85CC7E841734B36500473C5D /* bg6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg6.png; sourceTree = "<group>"; };
+		85D2DF6E172A8D420041AF34 /* AudioBookFairyTale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioBookFairyTale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D2DF71172A8D420041AF34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85D2DF73172A8D420041AF34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85D2DF75172A8D420041AF34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85D2DF79172A8D420041AF34 /* AudioBookFairyTale-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioBookFairyTale-Info.plist"; sourceTree = "<group>"; };
+		85D2DF7B172A8D420041AF34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85D2DF7D172A8D420041AF34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85D2DF7F172A8D420041AF34 /* AudioBookFairyTale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioBookFairyTale-Prefix.pch"; sourceTree = "<group>"; };
+		85D2DF80172A8D420041AF34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85D2DF81172A8D420041AF34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85D2DF94172A90D50041AF34 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		85D2DF95172A90D50041AF34 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		85D2DF99172A92EE0041AF34 /* navbar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar2.png; sourceTree = "<group>"; };
+		85D2DF9D172A95A60041AF34 /* sharebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharebg.png; sourceTree = "<group>"; };
+		85D2DF9F172A95FF0041AF34 /* BookShelfCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfCell.png; sourceTree = "<group>"; };
+		85D2E040172AA4940041AF34 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		85D2E042172AA49F0041AF34 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		85D2E044172AA4AA0041AF34 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		85D2E046172AA4B50041AF34 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		85D2E048172AA4BE0041AF34 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		85D2E04B172AA5640041AF34 /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		85D2E04C172AA5640041AF34 /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		85D2E04D172AA5640041AF34 /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		85D2E04E172AA5640041AF34 /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
+		85D2E04F172AA5640041AF34 /* RatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingView.h; sourceTree = "<group>"; };
+		85D2E050172AA5640041AF34 /* RatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingView.m; sourceTree = "<group>"; };
+		85D2E051172AA5640041AF34 /* BookImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookImage.h; sourceTree = "<group>"; };
+		85D2E052172AA5640041AF34 /* BookImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookImage.m; sourceTree = "<group>"; };
+		85E4DDB8173A16C40007D89A /* webIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webIntroView.h; sourceTree = "<group>"; };
+		85E4DDB9173A16C40007D89A /* webIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webIntroView.m; sourceTree = "<group>"; };
+		B26371371A1ACB5A009BB40C /* book1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book1.jpg; sourceTree = "<group>"; };
+		B26371381A1ACB5A009BB40C /* 世界上最优美的童话_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_1.mp3"; sourceTree = "<group>"; };
+		B26371391A1ACB5A009BB40C /* 世界上最优美的童话_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_10.mp3"; sourceTree = "<group>"; };
+		B263713A1A1ACB5A009BB40C /* 世界上最优美的童话_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_11.mp3"; sourceTree = "<group>"; };
+		B263713B1A1ACB5A009BB40C /* 世界上最优美的童话_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_2.mp3"; sourceTree = "<group>"; };
+		B263713C1A1ACB5A009BB40C /* 世界上最优美的童话_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_3.mp3"; sourceTree = "<group>"; };
+		B263713D1A1ACB5A009BB40C /* 世界上最优美的童话_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_4.mp3"; sourceTree = "<group>"; };
+		B263713E1A1ACB5A009BB40C /* 世界上最优美的童话_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_5.mp3"; sourceTree = "<group>"; };
+		B263713F1A1ACB5A009BB40C /* 世界上最优美的童话_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_6.mp3"; sourceTree = "<group>"; };
+		B26371401A1ACB5A009BB40C /* 世界上最优美的童话_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_7.mp3"; sourceTree = "<group>"; };
+		B26371411A1ACB5A009BB40C /* 世界上最优美的童话_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_8.mp3"; sourceTree = "<group>"; };
+		B26371421A1ACB5A009BB40C /* 世界上最优美的童话_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "世界上最优美的童话_9.mp3"; sourceTree = "<group>"; };
+		B26371441A1ACB5A009BB40C /* book2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book2.jpg; sourceTree = "<group>"; };
+		B26371451A1ACB5A009BB40C /* 少儿幽默故事小屋_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_1.mp3"; sourceTree = "<group>"; };
+		B26371461A1ACB5A009BB40C /* 少儿幽默故事小屋_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_10.mp3"; sourceTree = "<group>"; };
+		B26371471A1ACB5A009BB40C /* 少儿幽默故事小屋_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_11.mp3"; sourceTree = "<group>"; };
+		B26371481A1ACB5A009BB40C /* 少儿幽默故事小屋_12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_12.mp3"; sourceTree = "<group>"; };
+		B26371491A1ACB5A009BB40C /* 少儿幽默故事小屋_13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_13.mp3"; sourceTree = "<group>"; };
+		B263714A1A1ACB5A009BB40C /* 少儿幽默故事小屋_14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_14.mp3"; sourceTree = "<group>"; };
+		B263714B1A1ACB5A009BB40C /* 少儿幽默故事小屋_15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_15.mp3"; sourceTree = "<group>"; };
+		B263714C1A1ACB5A009BB40C /* 少儿幽默故事小屋_16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_16.mp3"; sourceTree = "<group>"; };
+		B263714D1A1ACB5A009BB40C /* 少儿幽默故事小屋_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_2.mp3"; sourceTree = "<group>"; };
+		B263714E1A1ACB5A009BB40C /* 少儿幽默故事小屋_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_3.mp3"; sourceTree = "<group>"; };
+		B263714F1A1ACB5A009BB40C /* 少儿幽默故事小屋_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_4.mp3"; sourceTree = "<group>"; };
+		B26371501A1ACB5A009BB40C /* 少儿幽默故事小屋_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_5.mp3"; sourceTree = "<group>"; };
+		B26371511A1ACB5A009BB40C /* 少儿幽默故事小屋_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_6.mp3"; sourceTree = "<group>"; };
+		B26371521A1ACB5A009BB40C /* 少儿幽默故事小屋_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_7.mp3"; sourceTree = "<group>"; };
+		B26371531A1ACB5A009BB40C /* 少儿幽默故事小屋_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_8.mp3"; sourceTree = "<group>"; };
+		B26371541A1ACB5A009BB40C /* 少儿幽默故事小屋_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "少儿幽默故事小屋_9.mp3"; sourceTree = "<group>"; };
+		B26371561A1ACB5A009BB40C /* book3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book3.jpg; sourceTree = "<group>"; };
+		B26371571A1ACB5A009BB40C /* 成语故事_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_1.mp3"; sourceTree = "<group>"; };
+		B26371581A1ACB5A009BB40C /* 成语故事_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_10.mp3"; sourceTree = "<group>"; };
+		B26371591A1ACB5A009BB40C /* 成语故事_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_11.mp3"; sourceTree = "<group>"; };
+		B263715A1A1ACB5A009BB40C /* 成语故事_12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_12.mp3"; sourceTree = "<group>"; };
+		B263715B1A1ACB5A009BB40C /* 成语故事_13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_13.mp3"; sourceTree = "<group>"; };
+		B263715C1A1ACB5A009BB40C /* 成语故事_14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_14.mp3"; sourceTree = "<group>"; };
+		B263715D1A1ACB5A009BB40C /* 成语故事_15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_15.mp3"; sourceTree = "<group>"; };
+		B263715E1A1ACB5A009BB40C /* 成语故事_16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_16.mp3"; sourceTree = "<group>"; };
+		B263715F1A1ACB5A009BB40C /* 成语故事_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_2.mp3"; sourceTree = "<group>"; };
+		B26371601A1ACB5A009BB40C /* 成语故事_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_3.mp3"; sourceTree = "<group>"; };
+		B26371611A1ACB5A009BB40C /* 成语故事_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_4.mp3"; sourceTree = "<group>"; };
+		B26371621A1ACB5A009BB40C /* 成语故事_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_5.mp3"; sourceTree = "<group>"; };
+		B26371631A1ACB5A009BB40C /* 成语故事_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_6.mp3"; sourceTree = "<group>"; };
+		B26371641A1ACB5A009BB40C /* 成语故事_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_7.mp3"; sourceTree = "<group>"; };
+		B26371651A1ACB5A009BB40C /* 成语故事_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_8.mp3"; sourceTree = "<group>"; };
+		B26371661A1ACB5A009BB40C /* 成语故事_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "成语故事_9.mp3"; sourceTree = "<group>"; };
+		B26372F81A26AE2C009BB40C /* DFPBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPBannerView.h; sourceTree = "<group>"; };
+		B26372F91A26AE2C009BB40C /* DFPExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPExtras.h; sourceTree = "<group>"; };
+		B26372FA1A26AE2C009BB40C /* DFPInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPInterstitial.h; sourceTree = "<group>"; };
+		B26372FB1A26AE2C009BB40C /* DFPSwipeableBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPSwipeableBannerView.h; sourceTree = "<group>"; };
+		B26372FC1A26AE2C009BB40C /* GADAdSizeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSizeDelegate.h; sourceTree = "<group>"; };
+		B26372FD1A26AE2C009BB40C /* GADAppEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAppEventDelegate.h; sourceTree = "<group>"; };
+		B26372FE1A26AE2C009BB40C /* GADSwipeableBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSwipeableBannerViewDelegate.h; sourceTree = "<group>"; };
+		B26373001A26AE2C009BB40C /* GADCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
+		B26373011A26AE2C009BB40C /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		B26373021A26AE2C009BB40C /* GADCustomEventExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
+		B26373031A26AE2C009BB40C /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		B26373041A26AE2C009BB40C /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		B26373051A26AE2C009BB40C /* GADCustomEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
+		B26373071A26AE2C009BB40C /* GADSearchBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchBannerView.h; sourceTree = "<group>"; };
+		B26373081A26AE2C009BB40C /* GADSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchRequest.h; sourceTree = "<group>"; };
+		B26373091A26AE2C009BB40C /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		B263730A1A26AE2C009BB40C /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		B263730B1A26AE2C009BB40C /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		B263730C1A26AE2C009BB40C /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		B263730D1A26AE2C009BB40C /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		B263730E1A26AE2C009BB40C /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		B263730F1A26AE2C009BB40C /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		B26373101A26AE2C009BB40C /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		B26373111A26AE2C009BB40C /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		B26373121A26AE2C009BB40C /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		B26373131A26AE2C009BB40C /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		B26373141A26AE2C009BB40C /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		B26373151A26AE2C009BB40C /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		B2B4D1821A0F056100A4EDF6 /* EECircularMusicPlayerDACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EECircularMusicPlayerDACircularProgressView.h; sourceTree = "<group>"; };
+		B2B4D1831A0F056100A4EDF6 /* EECircularMusicPlayerDACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EECircularMusicPlayerDACircularProgressView.m; sourceTree = "<group>"; };
+		B2B4D1841A0F056100A4EDF6 /* EECircularMusicPlayerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EECircularMusicPlayerControl.h; sourceTree = "<group>"; };
+		B2B4D1851A0F056100A4EDF6 /* EECircularMusicPlayerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EECircularMusicPlayerControl.m; sourceTree = "<group>"; };
+		B2B4D18B1A0F083900A4EDF6 /* AudioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioCell.h; sourceTree = "<group>"; };
+		B2B4D18C1A0F083900A4EDF6 /* AudioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioCell.m; sourceTree = "<group>"; };
+		B2B4D18D1A0F083900A4EDF6 /* AudioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTableViewController.h; sourceTree = "<group>"; };
+		B2B4D18E1A0F083900A4EDF6 /* AudioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTableViewController.m; sourceTree = "<group>"; };
+		B2B4D1931A0F09F200A4EDF6 /* ProfileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileInfo.h; sourceTree = "<group>"; };
+		B2B4D1941A0F09F200A4EDF6 /* ProfileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileInfo.m; sourceTree = "<group>"; };
+		B2DD64841A07942A00950367 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2DD64871A0795E400950367 /* LARSAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LARSAdController.h; sourceTree = "<group>"; };
+		B2DD64881A0795E400950367 /* LARSAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LARSAdController.m; sourceTree = "<group>"; };
+		B2DD64891A0795E400950367 /* TOLAdAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOLAdAdapter.h; sourceTree = "<group>"; };
+		B2DD648A1A0795E400950367 /* TOLAdAdapterGoogleAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOLAdAdapterGoogleAds.h; sourceTree = "<group>"; };
+		B2DD648B1A0795E400950367 /* TOLAdAdapterGoogleAds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOLAdAdapterGoogleAds.m; sourceTree = "<group>"; };
+		B2DD648C1A0795E400950367 /* TOLAdAdapteriAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOLAdAdapteriAds.h; sourceTree = "<group>"; };
+		B2DD648D1A0795E400950367 /* TOLAdAdapteriAds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOLAdAdapteriAds.m; sourceTree = "<group>"; };
+		B2DD648E1A0795E400950367 /* TOLAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOLAdViewController.h; sourceTree = "<group>"; };
+		B2DD648F1A0795E400950367 /* TOLAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOLAdViewController.m; sourceTree = "<group>"; };
+		B2DD64B91A0799C800950367 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B2DD64BB1A0799CF00950367 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B2DD64BD1A0799EB00950367 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B2DD64BF1A0799F700950367 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B2DD64C11A079A0900950367 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B2DD64C31A079A1000950367 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B2DD64C51A079A2100950367 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B2DD64C71A079A6D00950367 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B2DD64C91A079A9B00950367 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B2DD64CB1A079CD700950367 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		B2DD64CC1A079CD700950367 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		B2DD64D01A07A07B00950367 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D797FE1A1F0081CA00D1CB97 /* Default-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568@2x.png"; path = "resource/LaunchImage/Default-568@2x.png"; sourceTree = "<group>"; };
+		D797FE1C1F0081D900D1CB97 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = resource/LaunchImage/Default.png; sourceTree = "<group>"; };
+		D797FE1E1F0081E600D1CB97 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "resource/LaunchImage/Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85D2DF6B172A8D420041AF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DD64CF1A079CE900950367 /* CoreGraphics.framework in Frameworks */,
+				B2DD64CD1A079CD700950367 /* EventKit.framework in Frameworks */,
+				B2DD64CE1A079CD700950367 /* EventKitUI.framework in Frameworks */,
+				B2DD64C81A079A6D00950367 /* CoreText.framework in Frameworks */,
+				85D2E043172AA49F0041AF34 /* AVFoundation.framework in Frameworks */,
+				B2DD64C61A079A2100950367 /* CoreMedia.framework in Frameworks */,
+				B2DD64C41A079A1000950367 /* CoreTelephony.framework in Frameworks */,
+				B2DD64C21A079A0900950367 /* MessageUI.framework in Frameworks */,
+				B2DD64C01A0799F700950367 /* AudioToolbox.framework in Frameworks */,
+				B26373161A26AE2C009BB40C /* libGoogleAdMobAds.a in Frameworks */,
+				B2DD64BE1A0799EB00950367 /* StoreKit.framework in Frameworks */,
+				B2DD64BC1A0799CF00950367 /* AdSupport.framework in Frameworks */,
+				B2DD64BA1A0799C800950367 /* iAd.framework in Frameworks */,
+				B2DD64851A07942A00950367 /* QuartzCore.framework in Frameworks */,
+				85D2E049172AA4BE0041AF34 /* MobileCoreServices.framework in Frameworks */,
+				85D2E047172AA4B50041AF34 /* SystemConfiguration.framework in Frameworks */,
+				85D2E045172AA4AA0041AF34 /* CFNetwork.framework in Frameworks */,
+				85D2E041172AA4940041AF34 /* libz.dylib in Frameworks */,
+				85D2DF72172A8D420041AF34 /* UIKit.framework in Frameworks */,
+				85D2DF74172A8D420041AF34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85D2DF65172A8D420041AF34 = {
+			isa = PBXGroup;
+			children = (
+				852CBC5E173F734A007ADEF6 /* icon.png */,
+				85D2E048172AA4BE0041AF34 /* MobileCoreServices.framework */,
+				85D2E046172AA4B50041AF34 /* SystemConfiguration.framework */,
+				85D2E044172AA4AA0041AF34 /* CFNetwork.framework */,
+				85D2E042172AA49F0041AF34 /* AVFoundation.framework */,
+				85D2E040172AA4940041AF34 /* libz.dylib */,
+				85D2DF77172A8D420041AF34 /* Bookstore */,
+				85D2DF70172A8D420041AF34 /* Frameworks */,
+				85D2DF6F172A8D420041AF34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85D2DF6F172A8D420041AF34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85D2DF6E172A8D420041AF34 /* AudioBookFairyTale.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85D2DF70172A8D420041AF34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD64CB1A079CD700950367 /* EventKit.framework */,
+				B2DD64CC1A079CD700950367 /* EventKitUI.framework */,
+				B2DD64C91A079A9B00950367 /* AssetsLibrary.framework */,
+				B2DD64C71A079A6D00950367 /* CoreText.framework */,
+				B2DD64C51A079A2100950367 /* CoreMedia.framework */,
+				B2DD64C31A079A1000950367 /* CoreTelephony.framework */,
+				B2DD64C11A079A0900950367 /* MessageUI.framework */,
+				B2DD64BF1A0799F700950367 /* AudioToolbox.framework */,
+				B2DD64BD1A0799EB00950367 /* StoreKit.framework */,
+				B2DD64BB1A0799CF00950367 /* AdSupport.framework */,
+				B2DD64B91A0799C800950367 /* iAd.framework */,
+				B2DD64841A07942A00950367 /* QuartzCore.framework */,
+				85D2DF71172A8D420041AF34 /* UIKit.framework */,
+				85D2DF73172A8D420041AF34 /* Foundation.framework */,
+				85D2DF75172A8D420041AF34 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85D2DF77172A8D420041AF34 /* Bookstore */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4D18A1A0F083900A4EDF6 /* AudioTable */,
+				B2B4D1801A0F056100A4EDF6 /* EECircularMusicPlayerControl */,
+				B2DD64861A0795E400950367 /* Ads */,
+				B2DD64901A0795E400950367 /* Dependencies */,
+				85D2E04A172AA52E0041AF34 /* book */,
+				85D2DF80172A8D420041AF34 /* AppDelegate.h */,
+				85D2DF81172A8D420041AF34 /* AppDelegate.m */,
+				85D2DF94172A90D50041AF34 /* RootViewController.h */,
+				85D2DF95172A90D50041AF34 /* RootViewController.m */,
+				85CC7E7B1734A99D00473C5D /* ReadView.h */,
+				85CC7E7C1734A99D00473C5D /* ReadView.m */,
+				85E4DDB8173A16C40007D89A /* webIntroView.h */,
+				85E4DDB9173A16C40007D89A /* webIntroView.m */,
+				8507DA651737DCB700C445CD /* AbstractView.h */,
+				8507DA661737DCB700C445CD /* AbstractView.m */,
+				8543BAA917351550009C2514 /* NSString+URLEncoding.h */,
+				8543BAAA17351550009C2514 /* NSString+URLEncoding.m */,
+				85D2DF98172A929E0041AF34 /* resource */,
+				B2DD64D01A07A07B00950367 /* Images.xcassets */,
+				85D2DF78172A8D420041AF34 /* Supporting Files */,
+			);
+			path = Bookstore;
+			sourceTree = "<group>";
+		};
+		85D2DF78172A8D420041AF34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D797FE1E1F0081E600D1CB97 /* Default@2x.png */,
+				D797FE1C1F0081D900D1CB97 /* Default.png */,
+				D797FE1A1F0081CA00D1CB97 /* Default-568@2x.png */,
+				85D2DF79172A8D420041AF34 /* AudioBookFairyTale-Info.plist */,
+				85D2DF7A172A8D420041AF34 /* InfoPlist.strings */,
+				85D2DF7D172A8D420041AF34 /* main.m */,
+				85D2DF7F172A8D420041AF34 /* AudioBookFairyTale-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85D2DF98172A929E0041AF34 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B26371361A1ACB5A009BB40C /* 世界上最优美的童话 */,
+				B26371431A1ACB5A009BB40C /* 少儿幽默故事小屋 */,
+				B26371551A1ACB5A009BB40C /* 成语故事 */,
+				852CBC62173F76C6007ADEF6 /* icon.png */,
+				85D2DF99172A92EE0041AF34 /* navbar2.png */,
+				85D2DF9D172A95A60041AF34 /* sharebg.png */,
+				85D2DF9F172A95FF0041AF34 /* BookShelfCell.png */,
+				85CC7E841734B36500473C5D /* bg6.png */,
+				8543BAA717351487009C2514 /* bg1.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		85D2E04A172AA52E0041AF34 /* book */ = {
+			isa = PBXGroup;
+			children = (
+				85D2E04B172AA5640041AF34 /* BookCell.h */,
+				85D2E04C172AA5640041AF34 /* BookCell.m */,
+				85D2E04D172AA5640041AF34 /* BookModel.h */,
+				85D2E04E172AA5640041AF34 /* BookModel.m */,
+				85D2E04F172AA5640041AF34 /* RatingView.h */,
+				85D2E050172AA5640041AF34 /* RatingView.m */,
+				85D2E051172AA5640041AF34 /* BookImage.h */,
+				85D2E052172AA5640041AF34 /* BookImage.m */,
+			);
+			name = book;
+			sourceTree = "<group>";
+		};
+		B26371361A1ACB5A009BB40C /* 世界上最优美的童话 */ = {
+			isa = PBXGroup;
+			children = (
+				B26371371A1ACB5A009BB40C /* book1.jpg */,
+				B26371381A1ACB5A009BB40C /* 世界上最优美的童话_1.mp3 */,
+				B26371391A1ACB5A009BB40C /* 世界上最优美的童话_10.mp3 */,
+				B263713A1A1ACB5A009BB40C /* 世界上最优美的童话_11.mp3 */,
+				B263713B1A1ACB5A009BB40C /* 世界上最优美的童话_2.mp3 */,
+				B263713C1A1ACB5A009BB40C /* 世界上最优美的童话_3.mp3 */,
+				B263713D1A1ACB5A009BB40C /* 世界上最优美的童话_4.mp3 */,
+				B263713E1A1ACB5A009BB40C /* 世界上最优美的童话_5.mp3 */,
+				B263713F1A1ACB5A009BB40C /* 世界上最优美的童话_6.mp3 */,
+				B26371401A1ACB5A009BB40C /* 世界上最优美的童话_7.mp3 */,
+				B26371411A1ACB5A009BB40C /* 世界上最优美的童话_8.mp3 */,
+				B26371421A1ACB5A009BB40C /* 世界上最优美的童话_9.mp3 */,
+			);
+			path = "世界上最优美的童话";
+			sourceTree = "<group>";
+		};
+		B26371431A1ACB5A009BB40C /* 少儿幽默故事小屋 */ = {
+			isa = PBXGroup;
+			children = (
+				B26371441A1ACB5A009BB40C /* book2.jpg */,
+				B26371451A1ACB5A009BB40C /* 少儿幽默故事小屋_1.mp3 */,
+				B26371461A1ACB5A009BB40C /* 少儿幽默故事小屋_10.mp3 */,
+				B26371471A1ACB5A009BB40C /* 少儿幽默故事小屋_11.mp3 */,
+				B26371481A1ACB5A009BB40C /* 少儿幽默故事小屋_12.mp3 */,
+				B26371491A1ACB5A009BB40C /* 少儿幽默故事小屋_13.mp3 */,
+				B263714A1A1ACB5A009BB40C /* 少儿幽默故事小屋_14.mp3 */,
+				B263714B1A1ACB5A009BB40C /* 少儿幽默故事小屋_15.mp3 */,
+				B263714C1A1ACB5A009BB40C /* 少儿幽默故事小屋_16.mp3 */,
+				B263714D1A1ACB5A009BB40C /* 少儿幽默故事小屋_2.mp3 */,
+				B263714E1A1ACB5A009BB40C /* 少儿幽默故事小屋_3.mp3 */,
+				B263714F1A1ACB5A009BB40C /* 少儿幽默故事小屋_4.mp3 */,
+				B26371501A1ACB5A009BB40C /* 少儿幽默故事小屋_5.mp3 */,
+				B26371511A1ACB5A009BB40C /* 少儿幽默故事小屋_6.mp3 */,
+				B26371521A1ACB5A009BB40C /* 少儿幽默故事小屋_7.mp3 */,
+				B26371531A1ACB5A009BB40C /* 少儿幽默故事小屋_8.mp3 */,
+				B26371541A1ACB5A009BB40C /* 少儿幽默故事小屋_9.mp3 */,
+			);
+			path = "少儿幽默故事小屋";
+			sourceTree = "<group>";
+		};
+		B26371551A1ACB5A009BB40C /* 成语故事 */ = {
+			isa = PBXGroup;
+			children = (
+				B26371561A1ACB5A009BB40C /* book3.jpg */,
+				B26371571A1ACB5A009BB40C /* 成语故事_1.mp3 */,
+				B26371581A1ACB5A009BB40C /* 成语故事_10.mp3 */,
+				B26371591A1ACB5A009BB40C /* 成语故事_11.mp3 */,
+				B263715A1A1ACB5A009BB40C /* 成语故事_12.mp3 */,
+				B263715B1A1ACB5A009BB40C /* 成语故事_13.mp3 */,
+				B263715C1A1ACB5A009BB40C /* 成语故事_14.mp3 */,
+				B263715D1A1ACB5A009BB40C /* 成语故事_15.mp3 */,
+				B263715E1A1ACB5A009BB40C /* 成语故事_16.mp3 */,
+				B263715F1A1ACB5A009BB40C /* 成语故事_2.mp3 */,
+				B26371601A1ACB5A009BB40C /* 成语故事_3.mp3 */,
+				B26371611A1ACB5A009BB40C /* 成语故事_4.mp3 */,
+				B26371621A1ACB5A009BB40C /* 成语故事_5.mp3 */,
+				B26371631A1ACB5A009BB40C /* 成语故事_6.mp3 */,
+				B26371641A1ACB5A009BB40C /* 成语故事_7.mp3 */,
+				B26371651A1ACB5A009BB40C /* 成语故事_8.mp3 */,
+				B26371661A1ACB5A009BB40C /* 成语故事_9.mp3 */,
+			);
+			path = "成语故事";
+			sourceTree = "<group>";
+		};
+		B26372F51A26AE2C009BB40C /* GoogleMobileAdsSdkiOS-6.12.2 */ = {
+			isa = PBXGroup;
+			children = (
+				B26372F61A26AE2C009BB40C /* Add-ons */,
+				B26373091A26AE2C009BB40C /* GADAdMobExtras.h */,
+				B263730A1A26AE2C009BB40C /* GADAdNetworkExtras.h */,
+				B263730B1A26AE2C009BB40C /* GADAdSize.h */,
+				B263730C1A26AE2C009BB40C /* GADBannerView.h */,
+				B263730D1A26AE2C009BB40C /* GADBannerViewDelegate.h */,
+				B263730E1A26AE2C009BB40C /* GADInAppPurchase.h */,
+				B263730F1A26AE2C009BB40C /* GADInAppPurchaseDelegate.h */,
+				B26373101A26AE2C009BB40C /* GADInterstitial.h */,
+				B26373111A26AE2C009BB40C /* GADInterstitialDelegate.h */,
+				B26373121A26AE2C009BB40C /* GADModules.h */,
+				B26373131A26AE2C009BB40C /* GADRequest.h */,
+				B26373141A26AE2C009BB40C /* GADRequestError.h */,
+				B26373151A26AE2C009BB40C /* libGoogleAdMobAds.a */,
+			);
+			path = "GoogleMobileAdsSdkiOS-6.12.2";
+			sourceTree = "<group>";
+		};
+		B26372F61A26AE2C009BB40C /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				B26372F71A26AE2C009BB40C /* DoubleClick */,
+				B26372FF1A26AE2C009BB40C /* Mediation */,
+				B26373061A26AE2C009BB40C /* Search */,
+			);
+			path = "Add-ons";
+			sourceTree = "<group>";
+		};
+		B26372F71A26AE2C009BB40C /* DoubleClick */ = {
+			isa = PBXGroup;
+			children = (
+				B26372F81A26AE2C009BB40C /* DFPBannerView.h */,
+				B26372F91A26AE2C009BB40C /* DFPExtras.h */,
+				B26372FA1A26AE2C009BB40C /* DFPInterstitial.h */,
+				B26372FB1A26AE2C009BB40C /* DFPSwipeableBannerView.h */,
+				B26372FC1A26AE2C009BB40C /* GADAdSizeDelegate.h */,
+				B26372FD1A26AE2C009BB40C /* GADAppEventDelegate.h */,
+				B26372FE1A26AE2C009BB40C /* GADSwipeableBannerViewDelegate.h */,
+			);
+			path = DoubleClick;
+			sourceTree = "<group>";
+		};
+		B26372FF1A26AE2C009BB40C /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				B26373001A26AE2C009BB40C /* GADCustomEventBanner.h */,
+				B26373011A26AE2C009BB40C /* GADCustomEventBannerDelegate.h */,
+				B26373021A26AE2C009BB40C /* GADCustomEventExtras.h */,
+				B26373031A26AE2C009BB40C /* GADCustomEventInterstitial.h */,
+				B26373041A26AE2C009BB40C /* GADCustomEventInterstitialDelegate.h */,
+				B26373051A26AE2C009BB40C /* GADCustomEventRequest.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		B26373061A26AE2C009BB40C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B26373071A26AE2C009BB40C /* GADSearchBannerView.h */,
+				B26373081A26AE2C009BB40C /* GADSearchRequest.h */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B2B4D1801A0F056100A4EDF6 /* EECircularMusicPlayerControl */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4D1811A0F056100A4EDF6 /* DACircularProgress */,
+				B2B4D1841A0F056100A4EDF6 /* EECircularMusicPlayerControl.h */,
+				B2B4D1851A0F056100A4EDF6 /* EECircularMusicPlayerControl.m */,
+			);
+			path = EECircularMusicPlayerControl;
+			sourceTree = "<group>";
+		};
+		B2B4D1811A0F056100A4EDF6 /* DACircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4D1821A0F056100A4EDF6 /* EECircularMusicPlayerDACircularProgressView.h */,
+				B2B4D1831A0F056100A4EDF6 /* EECircularMusicPlayerDACircularProgressView.m */,
+			);
+			path = DACircularProgress;
+			sourceTree = "<group>";
+		};
+		B2B4D18A1A0F083900A4EDF6 /* AudioTable */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4D1931A0F09F200A4EDF6 /* ProfileInfo.h */,
+				B2B4D1941A0F09F200A4EDF6 /* ProfileInfo.m */,
+				B2B4D18B1A0F083900A4EDF6 /* AudioCell.h */,
+				B2B4D18C1A0F083900A4EDF6 /* AudioCell.m */,
+				B2B4D18D1A0F083900A4EDF6 /* AudioTableViewController.h */,
+				B2B4D18E1A0F083900A4EDF6 /* AudioTableViewController.m */,
+			);
+			path = AudioTable;
+			sourceTree = "<group>";
+		};
+		B2DD64861A0795E400950367 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD64871A0795E400950367 /* LARSAdController.h */,
+				B2DD64881A0795E400950367 /* LARSAdController.m */,
+				B2DD64891A0795E400950367 /* TOLAdAdapter.h */,
+				B2DD648A1A0795E400950367 /* TOLAdAdapterGoogleAds.h */,
+				B2DD648B1A0795E400950367 /* TOLAdAdapterGoogleAds.m */,
+				B2DD648C1A0795E400950367 /* TOLAdAdapteriAds.h */,
+				B2DD648D1A0795E400950367 /* TOLAdAdapteriAds.m */,
+				B2DD648E1A0795E400950367 /* TOLAdViewController.h */,
+				B2DD648F1A0795E400950367 /* TOLAdViewController.m */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		B2DD64901A0795E400950367 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				B26372F51A26AE2C009BB40C /* GoogleMobileAdsSdkiOS-6.12.2 */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85D2DF6D172A8D420041AF34 /* AudioBookFairyTale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D2DF91172A8D420041AF34 /* Build configuration list for PBXNativeTarget "AudioBookFairyTale" */;
+			buildPhases = (
+				85D2DF6A172A8D420041AF34 /* Sources */,
+				85D2DF6B172A8D420041AF34 /* Frameworks */,
+				85D2DF6C172A8D420041AF34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioBookFairyTale;
+			productName = Bookstore;
+			productReference = 85D2DF6E172A8D420041AF34 /* AudioBookFairyTale.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85D2DF66172A8D420041AF34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = xuejiannan;
+			};
+			buildConfigurationList = 85D2DF69172A8D420041AF34 /* Build configuration list for PBXProject "AudioBookFairyTale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85D2DF65172A8D420041AF34;
+			productRefGroup = 85D2DF6F172A8D420041AF34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85D2DF6D172A8D420041AF34 /* AudioBookFairyTale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85D2DF6C172A8D420041AF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B263718F1A1ACB5A009BB40C /* 成语故事_4.mp3 in Resources */,
+				B26371691A1ACB5A009BB40C /* 世界上最优美的童话_10.mp3 in Resources */,
+				B26371941A1ACB5A009BB40C /* 成语故事_9.mp3 in Resources */,
+				B2DD64D11A07A07B00950367 /* Images.xcassets in Resources */,
+				B263717B1A1ACB5A009BB40C /* 少儿幽默故事小屋_16.mp3 in Resources */,
+				B263716F1A1ACB5A009BB40C /* 世界上最优美的童话_6.mp3 in Resources */,
+				85D2DF7C172A8D420041AF34 /* InfoPlist.strings in Resources */,
+				B26371701A1ACB5A009BB40C /* 世界上最优美的童话_7.mp3 in Resources */,
+				B263718B1A1ACB5A009BB40C /* 成语故事_15.mp3 in Resources */,
+				D797FE1B1F0081CA00D1CB97 /* Default-568@2x.png in Resources */,
+				B26371811A1ACB5A009BB40C /* 少儿幽默故事小屋_7.mp3 in Resources */,
+				D797FE1D1F0081D900D1CB97 /* Default.png in Resources */,
+				B263717F1A1ACB5A009BB40C /* 少儿幽默故事小屋_5.mp3 in Resources */,
+				B26371891A1ACB5A009BB40C /* 成语故事_13.mp3 in Resources */,
+				B26371711A1ACB5A009BB40C /* 世界上最优美的童话_8.mp3 in Resources */,
+				B26371841A1ACB5A009BB40C /* book3.jpg in Resources */,
+				B263716A1A1ACB5A009BB40C /* 世界上最优美的童话_11.mp3 in Resources */,
+				B26371671A1ACB5A009BB40C /* book1.jpg in Resources */,
+				B263717A1A1ACB5A009BB40C /* 少儿幽默故事小屋_15.mp3 in Resources */,
+				B26371721A1ACB5A009BB40C /* 世界上最优美的童话_9.mp3 in Resources */,
+				B26371901A1ACB5A009BB40C /* 成语故事_5.mp3 in Resources */,
+				85D2DF9A172A92EE0041AF34 /* navbar2.png in Resources */,
+				85D2DF9E172A95A60041AF34 /* sharebg.png in Resources */,
+				85D2DFA0172A95FF0041AF34 /* BookShelfCell.png in Resources */,
+				B26371861A1ACB5A009BB40C /* 成语故事_10.mp3 in Resources */,
+				B263717E1A1ACB5A009BB40C /* 少儿幽默故事小屋_4.mp3 in Resources */,
+				B26371781A1ACB5A009BB40C /* 少儿幽默故事小屋_13.mp3 in Resources */,
+				B263718C1A1ACB5A009BB40C /* 成语故事_16.mp3 in Resources */,
+				B26371831A1ACB5A009BB40C /* 少儿幽默故事小屋_9.mp3 in Resources */,
+				B26371821A1ACB5A009BB40C /* 少儿幽默故事小屋_8.mp3 in Resources */,
+				B26371931A1ACB5A009BB40C /* 成语故事_8.mp3 in Resources */,
+				B26371921A1ACB5A009BB40C /* 成语故事_7.mp3 in Resources */,
+				B26371731A1ACB5A009BB40C /* book2.jpg in Resources */,
+				B26371851A1ACB5A009BB40C /* 成语故事_1.mp3 in Resources */,
+				85CC7E851734B36500473C5D /* bg6.png in Resources */,
+				B263716C1A1ACB5A009BB40C /* 世界上最优美的童话_3.mp3 in Resources */,
+				B263716B1A1ACB5A009BB40C /* 世界上最优美的童话_2.mp3 in Resources */,
+				8543BAA817351487009C2514 /* bg1.png in Resources */,
+				B263718E1A1ACB5A009BB40C /* 成语故事_3.mp3 in Resources */,
+				B263717C1A1ACB5A009BB40C /* 少儿幽默故事小屋_2.mp3 in Resources */,
+				B263718D1A1ACB5A009BB40C /* 成语故事_2.mp3 in Resources */,
+				B263718A1A1ACB5A009BB40C /* 成语故事_14.mp3 in Resources */,
+				B263716D1A1ACB5A009BB40C /* 世界上最优美的童话_4.mp3 in Resources */,
+				B263716E1A1ACB5A009BB40C /* 世界上最优美的童话_5.mp3 in Resources */,
+				B26371751A1ACB5A009BB40C /* 少儿幽默故事小屋_10.mp3 in Resources */,
+				B26371871A1ACB5A009BB40C /* 成语故事_11.mp3 in Resources */,
+				B26371801A1ACB5A009BB40C /* 少儿幽默故事小屋_6.mp3 in Resources */,
+				B26371761A1ACB5A009BB40C /* 少儿幽默故事小屋_11.mp3 in Resources */,
+				B26371681A1ACB5A009BB40C /* 世界上最优美的童话_1.mp3 in Resources */,
+				B26371881A1ACB5A009BB40C /* 成语故事_12.mp3 in Resources */,
+				B26371911A1ACB5A009BB40C /* 成语故事_6.mp3 in Resources */,
+				B26371791A1ACB5A009BB40C /* 少儿幽默故事小屋_14.mp3 in Resources */,
+				B26371741A1ACB5A009BB40C /* 少儿幽默故事小屋_1.mp3 in Resources */,
+				B26371771A1ACB5A009BB40C /* 少儿幽默故事小屋_12.mp3 in Resources */,
+				D797FE1F1F0081E700D1CB97 /* Default@2x.png in Resources */,
+				852CBC63173F76C6007ADEF6 /* icon.png in Resources */,
+				B263717D1A1ACB5A009BB40C /* 少儿幽默故事小屋_3.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85D2DF6A172A8D420041AF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D2DF7E172A8D420041AF34 /* main.m in Sources */,
+				85D2DF82172A8D420041AF34 /* AppDelegate.m in Sources */,
+				85D2DF96172A90D50041AF34 /* RootViewController.m in Sources */,
+				B2B4D1861A0F056100A4EDF6 /* EECircularMusicPlayerDACircularProgressView.m in Sources */,
+				B2DD64B51A0795E400950367 /* TOLAdAdapteriAds.m in Sources */,
+				B2B4D1951A0F09F200A4EDF6 /* ProfileInfo.m in Sources */,
+				B2B4D18F1A0F083900A4EDF6 /* AudioCell.m in Sources */,
+				B2B4D1871A0F056100A4EDF6 /* EECircularMusicPlayerControl.m in Sources */,
+				B2DD64B61A0795E500950367 /* TOLAdViewController.m in Sources */,
+				B2DD64B31A0795E400950367 /* LARSAdController.m in Sources */,
+				B2DD64B41A0795E400950367 /* TOLAdAdapterGoogleAds.m in Sources */,
+				85D2E053172AA5640041AF34 /* BookCell.m in Sources */,
+				85D2E054172AA5640041AF34 /* BookModel.m in Sources */,
+				85D2E055172AA5640041AF34 /* RatingView.m in Sources */,
+				85D2E056172AA5640041AF34 /* BookImage.m in Sources */,
+				B2B4D1901A0F083900A4EDF6 /* AudioTableViewController.m in Sources */,
+				85CC7E7D1734A99D00473C5D /* ReadView.m in Sources */,
+				8543BAAB17351551009C2514 /* NSString+URLEncoding.m in Sources */,
+				8507DA671737DCB700C445CD /* AbstractView.m in Sources */,
+				85E4DDBA173A16C40007D89A /* webIntroView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85D2DF7A172A8D420041AF34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85D2DF7B172A8D420041AF34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85D2DF8F172A8D420041AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85D2DF90172A8D420041AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85D2DF92172A8D420041AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JINGZHOU XU (6726FSYBSS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookstore/AudioBookFairyTale-Prefix.pch";
+				INFOPLIST_FILE = "Bookstore/AudioBookFairyTale-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bookstore/Dependencies/GoogleMobileAdsSdkiOS-6.12.2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = AudioBookFairyTale;
+				PROVISIONING_PROFILE = "e64586d4-1a91-44e8-8467-12bc6cbadc06";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85D2DF93172A8D420041AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JINGZHOU XU (E88923T289)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookstore/AudioBookFairyTale-Prefix.pch";
+				INFOPLIST_FILE = "Bookstore/AudioBookFairyTale-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bookstore/Dependencies/GoogleMobileAdsSdkiOS-6.12.2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = AudioBookFairyTale;
+				PROVISIONING_PROFILE = "1df84ff9-a0d9-4dfb-afe4-5fd6c11fc71d";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85D2DF69172A8D420041AF34 /* Build configuration list for PBXProject "AudioBookFairyTale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D2DF8F172A8D420041AF34 /* Debug */,
+				85D2DF90172A8D420041AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D2DF91172A8D420041AF34 /* Build configuration list for PBXNativeTarget "AudioBookFairyTale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D2DF92172A8D420041AF34 /* Debug */,
+				85D2DF93172A8D420041AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85D2DF66172A8D420041AF34 /* Project object */;
+}

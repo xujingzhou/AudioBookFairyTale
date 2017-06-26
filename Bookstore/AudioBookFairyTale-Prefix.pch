@@ -1,0 +1,40 @@
+//
+// Prefix header for all source files of the 'Bookstore' target in the 'Bookstore' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define kGoogleBannerAdUnitID @"ca-app-pub-9740209609251707/5231742873"
+#define kGoogleInterstitialAdUnitID @"ca-app-pub-9740209609251707/6708476070"
+
+// Empty judgment for NSString
+static inline BOOL isStringEmpty(NSString *value)
+{
+    BOOL result = FALSE;
+    if (!value || [value isKindOfClass:[NSNull class]])
+    {
+        // null object
+        result = TRUE;
+    }
+    else
+    {
+        NSString *trimedString = [value stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        if ([value isKindOfClass:[NSString class]] && [trimedString length] == 0)
+        {
+            // empty string
+            result = TRUE;
+        }
+    }
+    
+    return result;
+}
+
+#endif
